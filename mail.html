@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <title>Order Details Email Template</title>
+    <meta name="description" content="Reset Password Email Template.">
+    <style type="text/css">
+        a:hover {
+            text-decoration: underline !important;
+        }
+    </style>
+</head>
+
+<body marginheight="0" topmargin="0" marginwidth="0" style="margin: 0px; background-color: #f2f3f8;
+ @import url(https://fonts.googleapis.com/css?family=Rubik:300,400,500,700|Open+Sans:300,400,600,700); font-family: 'Open Sans', sans-serif;
+"
+ leftmargin="0">
+    <!--100% body table-->
+    <table cellspacing="0" border="0" cellpadding="0" width="100%" bgcolor="#f2f3f8"
+        style="@import url(https://fonts.googleapis.com/css?family=Rubik:300,400,500,700|Open+Sans:300,400,600,700); font-family: 'Open Sans', sans-serif;">
+        <!-- <div style="display:flex; justify-content:center">
+            <img  src="./assets/logo.png" alt="Logo Venture Games"/>
+
+        </div> -->
+        <tr>
+            <td>
+                <table style="background-color: #fff; max-width:670px;  margin:0 auto;" width="100%" border="0"
+                    align="center" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td style="height:80px;">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align:center;height:200px">
+                            <a href="https://venture-de190.web.app" title="logo" target="_blank">
+                                <img width="150" src="https://venturegames.s3.amazonaws.com/photos/logo.png"
+                                    title="logo" alt="logo">
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="height:20px;">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table width="95%" border="0" align="center" cellpadding="0" cellspacing="0"
+                                style="max-width:670px;background:#fff; border-radius:3px; text-align:center;-webkit-box-shadow:0 6px 18px 0 rgba(0,0,0,.06);-moz-box-shadow:0 6px 18px 0 rgba(0,0,0,.06);box-shadow:0 6px 18px 0 rgba(0,0,0,.06);">
+                                <tr>
+                                    <td style="height:40px;">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding:0 35px;">
+                                        <h1
+                                            style="color:#1e1e2d; font-weight:500; margin:0;font-size:32px;font-family:'Rubik',sans-serif;">
+                                            Thank You for placing the order on Venture Games</h1>
+                                        <h3 style="color:#1e1e2d; font-weight:500">Your order details are as follows
+                                        </h3>
+
+                                        <span
+                                            style="display:inline-block; vertical-align:middle; margin:29px 0 26px; border-bottom:1px solid #cecece; width:100px;"></span>
+ 
+                                        <div>
+                                            <p>Order Id : 215454d51v5487484</p>
+                                            <p>Order Time : Tue May 13 16:30:00</p>
+                                        </div>
+                                        <div>
+
+                                            <div
+                                                style="margin-bottom: 5px;border:1px #FFBB46 solid;padding-left: 10px;padding-right: 10px;flex-direction: column;align-items: center;">
+                                                {{#each comments}}
+
+                                                <img src={{{productImage}}} style="width: 50%; margin-top: 30px;" />
+                                                <div style=" font-size: 22px;">
+                                                    <p id="product-name">{{productName}}</p>
+                                                    <p style="font-size: 15px; margin-top: -10px;">QTY x
+                                                        {{{productQuantity}}}</p>
+                                                    <p style="font-size: 15px;">Rs {{{productPrice}}}</p>
+                                                </div>
+                                                {{/each}}
+
+                                            </div>
+                                        </div>
+                                        <div style="margin-top:20px">
+
+                                            <div
+                                                style="width:100%;margin-bottom:10px;border:1px #FFBB46 solid;padding-bottom: 10px;">
+                                                <div>
+                                                    <h3 style="color:#FFBB46">
+                                                        Billing Details
+                                                    </h3>
+                                                    <p id="bil-div"
+                                                        style="right:0;left:0;margin:auto;padding-left: 10px;padding-right: 10px;">
+                                                        <li style="list-style: none; line-height: 30px;">Abdul Hanann
+                                                        </li>
+
+                                                        <li style="list-style: none; line-height: 30px;">House No ABC
+                                                        </li>
+                                                        <li style="list-style: none; line-height: 30px;">Karachi</li>
+                                                        <li style="list-style: none; line-height: 30px;">7530</li>
+                                                        <li style="list-style: none; line-height: 30px;">Tel:03180261268
+                                                        </li>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div
+                                                style="width:100%;margin-bottom:10px;border:1px #FFBB46 solid;padding-bottom: 10px;">
+                                                <div>
+                                                    <h3 style="color:#FFBB46">
+                                                        Shipping Details
+                                                    </h3>
+                                                    <p id="bil-div"
+                                                        style="right:0;left:0;margin:auto;padding-left: 10px;padding-right: 10px;">
+                                                        <li style="list-style: none; line-height: 30px;">Abdul Hanann
+                                                        </li>
+
+                                                        <li style="list-style: none; line-height: 30px;">House No ABC
+                                                        </li>
+                                                        <li style="list-style: none; line-height: 30px;">Karachi</li>
+                                                        <li style="list-style: none; line-height: 30px;">7530</li>
+                                                        <li style="list-style: none; line-height: 30px;">Tel:03180261268
+                                                        </li>
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        </div>
+                                    </td>
+                                   
+                                </tr>
+                      
+                               
+                            </table>
+                        </td>
+                   
+                </table>
+              
+            </td>
+        </tr>
+    </table>
+    <p
+    style="width: 100%; text-align: center;font-size:14px; color:rgba(69, 80, 86, 0.7411764705882353); line-height:18px;">
+    &copy; <strong >www.venturegames.com</strong></p>
+</body>
+<script src="mailService.js"></script>
+
+</html>
